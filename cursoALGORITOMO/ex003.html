@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREUZA NAO SABE A TEMPERATURA</title>
+</head>
+<body>
+    <h1>A temperatura de F para Celsius é:</h1>
+</body>
+<script>
+    var temperaturaFString = window.prompt('qual a temperuta em fahrenheit?')
+    var temperaturaFInt = parseFloat(temperaturaFString)
+
+    var temperaturaCelsius = (temperaturaFInt-32)/1.8
+    var fator = Math.pow(10,1)
+    var temperaturaArredondado = Math.ceil(temperaturaCelsius * fator)/fator
+    
+    document.write(temperaturaArredondado)
+
+</script>
+</html>
