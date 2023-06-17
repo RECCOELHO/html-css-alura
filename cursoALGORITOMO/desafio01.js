@@ -11,10 +11,10 @@ var mensalidade = emprestimo/parcelasInt
 var fator = Math.pow(10,2)
 var mensalidadeArredondada = Math.ceil(mensalidade*fator)/fator
 
-document.getElementById("demo").innerText = emprestimoFloat
+document.getElementById("demo").innerText = emprestimoFloat.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
 
-document.getElementById("valor-a-pagar").innerText = emprestimo
+document.getElementById("valor-a-pagar").innerText = emprestimo.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
 
 document.getElementById("parcelas").innerText = parcelasInt
 
-document.getElementById("mensalidade").innerText = mensalidadeArredondada
+document.getElementById("mensalidade").innerText = mensalidadeArredondada.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
