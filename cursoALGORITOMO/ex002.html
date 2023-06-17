@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolar</title>
+</head>
+<body>
+    
+</body>
+    <script>
+        var reaisString = window.prompt('Quanto voce vai trocar?')
+        var reaisInt = parseFloat(reaisString)
+        var dolar = reaisInt/4.82
+        var dolares = Math.pow(10, 2)
+        var dolaresArredondado = Math.ceil(dolar * dolares)/ dolares;
+        document.write("Voce pode com ", reaisInt, " reias, pode comprar ", dolaresArredondado, " Dolares")
+    </script>
+</html>
