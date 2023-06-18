@@ -1,4 +1,4 @@
-var emprestimoString = window.prompt('qual valor do emprestimo?')
+var emprestimoString = window.prompt('Qual valor do emprestimo?')
 var emprestimoFloat = parseFloat(emprestimoString)
 
 var emprestimo = emprestimoFloat * 1.2 
