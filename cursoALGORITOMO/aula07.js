@@ -12,7 +12,7 @@ if (dinheiro >= 10000 & idade >= 18){
 }if (dinheiro < 10000 & idade >= 18){
     document.write(' Nao vai da para ir para disney!! Porque voce é pobre! Mas tu ja tem idade para ir')
 }if (dinheiro >= 10000 & idade < 18){
-    document.write(' Nao vai da para ir para disney!! Porque voce nao tem idade.')
+    document.write(' Nao vai da para ir para disney!! Porque voce nao tem idade. CRESÇA E APACERÇA')
 }if (dinheiro < 10000 & idade < 18){
     document.write(' Nao vai da para ir para disney!! Porque voce nao tem dinheiro e nem idade!VAI TRABALHAR E CRESCER...')
 }
