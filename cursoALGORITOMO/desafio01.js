@@ -18,3 +18,6 @@ document.getElementById("valor-a-pagar").innerText = emprestimo.toLocaleString('
 document.getElementById("parcelas").innerText = parcelasInt
 
 document.getElementById("mensalidade").innerText = mensalidadeArredondada.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
+
+
+/* toLocaleString('pt-br',{style: 'currency', currency: 'BRL'} trandormar em real*/
