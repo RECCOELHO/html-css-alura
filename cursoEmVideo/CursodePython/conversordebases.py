@@ -13,5 +13,3 @@ elif OPCAO == 2:
 elif OPCAO == 3:
     print('{} convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
 else: print('###Opção invalida.Tente novamente.###')
-
-print('hello world')
